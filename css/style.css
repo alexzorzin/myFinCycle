@@ -804,7 +804,7 @@ div::selection {
 
 .profile-btn4 {
   position: relative;
-  top: -1rem;
+  top: 1rem;
   box-sizing: border-box;
   appearance: none;
   background-color: transparent;
@@ -927,7 +927,7 @@ header.masthead .masthead-content .masthead-subheading {
   }
   .profile-btn3 {
     position: relative;
-    top: -1rem;
+    top: 1rem;
     box-sizing: border-box;
     appearance: none;
     background-color: transparent;
@@ -951,7 +951,7 @@ header.masthead .masthead-content .masthead-subheading {
   
   .profile-btn4 {
     position: relative;
-    top: -1rem;
+    top: 1rem;
     box-sizing: border-box;
     appearance: none;
     background-color: transparent;
@@ -973,6 +973,17 @@ header.masthead .masthead-content .masthead-subheading {
     font-weight: 700;
   }
 }
+
+@media (min-width: 1300px) {
+  .cardAboutUs{
+    height: 25rem;
+    left: 19rem;
+  }
+  .containerAboutUs{
+    width: 64%;
+  }
+}
+
 
 @media (min-width: 1400px) {
   .cardAboutUs{
