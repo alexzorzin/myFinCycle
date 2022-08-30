@@ -951,7 +951,7 @@ header.masthead .masthead-content .masthead-subheading {
   
   .profile-btn4 {
     position: relative;
-    top: 1rem;
+    top: -1rem;
     box-sizing: border-box;
     appearance: none;
     background-color: transparent;
