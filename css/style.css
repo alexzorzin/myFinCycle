@@ -804,7 +804,7 @@ div::selection {
 
 .profile-btn4 {
   position: relative;
-  top: 1rem;
+  top: -1rem;
   box-sizing: border-box;
   appearance: none;
   background-color: transparent;
@@ -920,10 +920,33 @@ header.masthead .masthead-content .masthead-subheading {
 @media (min-width: 1200px) {
   .cardAboutUs{
     height: 25rem;
+    left: 13rem;
+  }
+  .containerAboutUs{
+    width: 68%;
+  }
+}
+
+@media (min-width: 1400px) {
+  .cardAboutUs{
+    height: 25rem;
+    left: 19rem;
+  }
+  .containerAboutUs{
+    width: 60%;
+  }
+}
+
+@media (min-width: 1600px) {
+  .cardAboutUs{
+    height: 25rem;
     left: 32rem;
   }
   .containerAboutUs{
     width: 46%;
+  }
+  .profile-btn4{
+    top: 1rem;
   }
 }
 
